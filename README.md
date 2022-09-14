@@ -1,3 +1,21 @@
+# Intro
+
+This is a practice project with a mock REST API and a mock server with the json-server package.
+Once the packages are all installed and development server is run, It displays thumbnails of various artists on the home page.
+Every thumbnail is clickable and it renders a landing page for each artist that shows some of the artist's albums in addition to a simple mock description of the artist.
+
+## Features
+
+1. routing
+1. mock server side and database with json-server and the db.json file
+
+## How to run
+
+Once all the packages are install using `npm install` on the CLI, `json-server --watch db.json --port 3001` must be run on the CLI to start the mock server. Next `npm start` is to be run to start the dev server.
+
+**NOTE:**
+Since the port for the fake server is defined in the app as 3001 on localhost, be careful to use this exact port to start the server or else it would not work
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
